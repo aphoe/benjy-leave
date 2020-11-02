@@ -1,0 +1,46 @@
+tr .admin-list{
+    visibility: hidden;
+}
+tr:hover .admin-list{
+    visibility: visible;
+}
+.admin-list {}
+.admin-list a{
+    padding: 0px 8px;
+    border-right: 1px solid #e1e1e1;
+    text-transform: capitalize;
+}
+.admin-list a:last-of-type{
+    border-right: none;
+}
+.admin-list i {
+    margin-right: 0px;
+}
+.admin-list .alert{
+    padding: 0 5px;
+    margin-bottom: 0px;
+}
+/*** Sub Field ***/
+.has-sub-field{
+    padding: .3em .75em !important;
+}
+.has-sub-field .sub-field{
+    font-size: 85%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+tr:hover .sub-field {
+    opacity: 1;
+}
+.has-sub-field .sub-field div{
+    color: #999;
+    display: inline-block;
+    margin-right: 8px;
+}
+.has-sub-field .sub-field div:last-of-type{
+    margin-right: 0;
+}
+.has-sub-field .sub-field div i{
+    color: #1C7CE7;
+    margin-right: 3px;
+}

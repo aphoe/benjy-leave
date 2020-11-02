@@ -1,0 +1,17 @@
+/*** General***/
+.input-required label:after,
+.check-required .label:after
+{
+    content: ' *';
+    color: #FC3939;
+}
+.label-required {
+    font-weight: bold;
+    color: #FC3939;
+}
+.form-info {
+    display: block;
+    background-color: #fbfbfb;
+    padding: 5px;
+    margin: 4px auto 8px auto;
+}

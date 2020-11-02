@@ -1,0 +1,38 @@
+.bill{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 0;
+}
+.bill .label{
+    font-size: 18px;
+    font-weight: 100;
+    display: inline-block;
+    width: 40%;
+}
+.bill .label small{
+    display: block;
+    font-size: 12px;
+    font-weight: 100;
+    color: #1C7CE7;
+}
+.bill .price{
+    display: inline-block;
+    float: right;
+    min-width: 50%;
+}
+.bill .price .currency{
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    margin: 10px 0 0 0;
+}
+.bill .price .amount{
+    display: inline-block;
+    font-size: 32px;
+    vertical-align: top;
+}
+.bill .price .interval{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 6px;
+}

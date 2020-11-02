@@ -1,0 +1,7 @@
+.leave-type-card{}
+.leave-type-card .leave-description{
+    overflow-y: auto;
+}
+.leave-type-card .list-group-item {
+    padding: 0 10px;
+}
